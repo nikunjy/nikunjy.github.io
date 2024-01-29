@@ -1,0 +1,68 @@
+.post-container {
+  margin: 50px 80px 80px 200px;
+  overflow: auto;
+}
+.post-content {
+  word-wrap: break-word;
+  margin-right: 200px;
+  margin-left: 210px;
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.container_image {
+  width: 400px;
+  margin: 0 10px 10px 0;
+}
+
+body,
+header,
+header a {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial,
+    sans-serif;
+}
+
+header {
+  background-color: #f8f8f8; /* Off-white background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links,
+.nav-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li,
+.nav-social li {
+  display: inline;
+}
+
+.nav-links a,
+.nav-social a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  padding: 60px 20px 20px 20px; /* Adjust top padding to not hide behind fixed header */
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../styles/basic.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <style>
+      .divider {
+        height: 1px;
+        background-color: #dcdcdc; /* Light gray color */
+        box-shadow: 0px 1px 2px #dcdcdc; /* Shaded effect */
+      }
+      .blog-container {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-main">
+        <ul class="nav-links">
+          <li><a href="/">About</a></li>
+          <li><a href="./blog/index.html">Blog</a></li>
+          <li><a href="#">Reading List</a></li>
+        </ul>
+        <ul class="nav-social">
+          <li>
+            <a href="https://github.com/nikunjy"
+              ><i class="bi bi-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/nikunj-yadav-246a1424/"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/nikunjyadav89"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container py-4">
+      <div class="blog-container">
+        <div class="row">
+          <!-- Blog Entry -->
+          <div class="row mb-3">
+            <!-- Text Column -->
+            <div class="col-md-8">
+              <div class="d-flex flex-column justify-content-between">
+                <h2 class="mb-0">Blog Title</h2>
+                <small class="text-muted mb-2">Jan 29, 2024</small>
+                <p>
+                  This is a summary of the blog post. It gives a brief overview
+                  of the content.
+                </p>
+              </div>
+            </div>
+            <!-- Image Column -->
+            <div class="col-md-4">
+              <a href="#" class="thumbnail">
+                <img
+                  src="https://coati.ai/coati_logo.png"
+                  class="img-fluid"
+                  alt="Blog Image"
+                  height="100"
+                  width="100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="divider my-4"></div>
+          <!-- Repeat for other entries -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
