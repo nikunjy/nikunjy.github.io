@@ -1,0 +1,10 @@
+[
+  {
+      "title": "Generic Rules Engine using Antlr",
+      "date": "May 9, 2019",
+      "summary": "In this post, I delve into the creation of a dynamic configuration system, based on my experience designing one at Uber...",
+      "imageSrc": "https://miro.medium.com/v2/resize:fit:294/format:webp/1*LMSzBSX_Ntfv1Iu1-dNrBA.jpeg",
+      "link": "https://medium.com/@nikunjyadav/generic-rules-engine-in-golang-using-antlr-d30a0d0bb565"
+  }
+
+]
